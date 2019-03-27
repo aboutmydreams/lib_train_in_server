@@ -14,3 +14,129 @@
 准确率:0.9
 准确率:0.85
 准确率:0.85
+准确率:0.7833333333333333
+准确率:0.8666666666666667
+准确率:0.8666666666666667
+[Errno 2] No such file or directory: 'imgs/OKVT-75955534.png'
+准确率:0.8666666666666667
+准确率:0.8833333333333333
+[Errno 2] No such file or directory: 'imgs/IGGL-05424533.png'
+[Errno 2] No such file or directory: 'imgs/OJHQ-62193132.png'
+准确率:0.8083333333333333
+准确率:0.8
+[Errno 2] No such file or directory: 'imgs/QTFZ-65515353.png'
+[Errno 2] No such file or directory: 'imgs/OAPP-32883516.png'
+准确率:0.8666666666666667
+准确率:0.8833333333333333
+[Errno 2] No such file or directory: 'imgs/SRRF-22978068.png'
+准确率:0.8083333333333333
+准确率:0.8166666666666667
+准确率:0.8
+准确率:0.85
+准确率:0.8083333333333333
+[Errno 2] No such file or directory: 'imgs/PWXZ-62426591.png'
+准确率:0.8166666666666667
+准确率:0.8583333333333333
+准确率:0.8416666666666667
+准确率:0.9
+[Errno 2] No such file or directory: 'imgs/JZHW-54943423.png'
+准确率:0.8833333333333333
+准确率:0.825
+准确率:0.85
+准确率:0.9
+[Errno 2] No such file or directory: 'imgs/UALH-93174539.png'
+准确率:0.8666666666666667
+准确率:0.8333333333333334
+准确率:0.825
+准确率:0.875
+[Errno 2] No such file or directory: 'imgs/LEIV-12389791.png'
+准确率:0.8166666666666667
+准确率:0.8916666666666667
+[Errno 2] No such file or directory: 'imgs/EIVI-39227609.png'
+准确率:0.85
+准确率:0.85
+[Errno 2] No such file or directory: 'imgs/ATIK-20829159.png'
+[Errno 2] No such file or directory: 'imgs/PSZP-66081400.png'
+准确率:0.875
+准确率:0.825
+[Errno 2] No such file or directory: 'imgs/WKYO-57496502.png'
+[Errno 2] No such file or directory: 'imgs/YDHZ-39424141.png'
+准确率:0.8916666666666667
+准确率:0.8166666666666667
+[Errno 2] No such file or directory: 'imgs/UULN-31942221.png'
+准确率:0.8833333333333333
+准确率:0.825
+准确率:0.875
+准确率:0.8166666666666667
+准确率:0.8666666666666667
+准确率:0.925
+准确率:0.8416666666666667
+[Errno 2] No such file or directory: 'imgs/PPZR-40842404.png'
+准确率:0.8166666666666667
+准确率:0.85
+Unable to open file (unable to lock file, errno = 11, error message = 'Resource temporarily unavailable')
+准确率:0.8833333333333333
+准确率:0.7916666666666666
+[Errno 2] No such file or directory: 'imgs/KHKB-18241159.png'
+准确率:0.8333333333333334
+准确率:0.8166666666666667
+准确率:0.85
+准确率:0.8416666666666667
+[Errno 2] No such file or directory: 'imgs/BKKM-11227815.png'
+准确率:0.8583333333333333
+准确率:0.8583333333333333
+准确率:0.875
+准确率:0.9
+[Errno 2] No such file or directory: 'imgs/CTQR-88174692.png'
+准确率:0.8333333333333334
+准确率:0.875
+准确率:0.875
+准确率:0.85
+[Errno 2] No such file or directory: 'imgs/FTIS-98660096.png'
+准确率:0.8416666666666667
+准确率:0.8583333333333333
+cannot reshape array of size 0 into shape (0,newaxis)
+准确率:0.85
+准确率:0.8166666666666667
+[Errno 2] No such file or directory: 'imgs/KRCJ-82888954.png'
+准确率:0.7416666666666667
+准确率:0.8583333333333333
+准确率:0.8666666666666667
+准确率:0.8083333333333333
+准确率:0.8666666666666667
+[Errno 2] No such file or directory: 'imgs/UCFB-54297622.png'
+准确率:0.8333333333333334
+准确率:0.875
+[Errno 2] No such file or directory: 'imgs/WPVV-60079416.png'
+准确率:0.8833333333333333
+准确率:0.8833333333333333
+准确率:0.9083333333333333
+准确率:0.875
+准确率:0.875
+准确率:0.8416666666666667
+[Errno 2] No such file or directory: 'imgs/HQNR-43567448.png'
+准确率:0.85
+准确率:0.8416666666666667
+准确率:0.8583333333333333
+准确率:0.875
+准确率:0.85
+准确率:0.8
+[Errno 2] No such file or directory: 'imgs/MLCV-01554631.png'
+准确率:0.8416666666666667
+准确率:0.85
+[Errno 2] No such file or directory: 'imgs/FDRW-81935017.png'
+准确率:0.775
+准确率:0.8833333333333333
+Unable to create file (unable to lock file, errno = 11, error message = 'Resource temporarily unavailable')
+准确率:0.8083333333333333
+准确率:0.8833333333333333
+[Errno 2] No such file or directory: 'imgs/ZGZC-01853661.png'
+准确率:0.9
+准确率:0.825
+准确率:0.9166666666666666
+准确率:0.85
+准确率:0.8416666666666667
+准确率:0.825
+准确率:0.8583333333333333
+准确率:0.8916666666666667
+准确率:0.8833333333333333
