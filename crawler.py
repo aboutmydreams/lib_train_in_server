@@ -18,7 +18,7 @@ train_img_path1 = 'imgs/'
 
 def save_test_imgs(train_img_path):
     data_list = os.listdir(train_img_path)
-    for file in data_list[::10]:
+    for file in data_list[::5]:
         if file != '.DS_Store':
             img = Image.open(train_img_path + file)
             img = solve_it.dele_noise(img, N=2, Z=1)
