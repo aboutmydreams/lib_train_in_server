@@ -1,0 +1,47 @@
+
+[Errno 2] No such file or directory: 'error_imgs/30990.png'
+[Errno 2] No such file or directory: 'error_imgs/6335.png'
+[Errno 2] No such file or directory: 'error_imgs/62756.png'
+[Errno 2] No such file or directory: 'immm/HKJN-04975085.png'
+[Errno 2] No such file or directory: 'immm/CFAH-53266569.png'
+[Errno 2] No such file or directory: 'immm/JWLC-05521973.png'
+[Errno 2] No such file or directory: 'immm/VSDQ-90570380.png'
+cannot reshape array of size 0 into shape (0,newaxis)cannot reshape array of size 0 into shape (0,newaxis)cannot reshape array of size 0 into shape (0,newaxis)cannot reshape array of size 0 into shape (0,newaxis)cannot reshape array of size 0 into shape (0,newaxis)cannot reshape array of size 0 into shape (0,newaxis)cannot reshape array of size 0 into shape (0,newaxis)cannot reshape array of size 0 into shape (0,newaxis)cannot reshape array of size 0 into shape (0,newaxis)Tensor Tensor("dense_3/Softmax:0", shape=(?, 26), dtype=float32) is not an element of this graph.Tensor Tensor("dense_3/Softmax:0", shape=(?, 26), dtype=float32) is not an element of this graph.Tensor Tensor("dense_3/Softmax:0", shape=(?, 26), dtype=float32) is not an element of this graph.Tensor Tensor("dense_3/Softmax:0", shape=(?, 26), dtype=float32) is not an element of this graph.cannot reshape array of size 0 into shape (0,newaxis)Tensor Tensor("dense_3/Softmax:0", shape=(?, 26), dtype=float32) is not an element of this graph.Tensor Tensor("dense_3/Softmax:0", shape=(?, 26), dtype=float32) is not an element of this graph.Tensor Tensor("dense_3/Softmax:0", shape=(?, 26), dtype=float32) is not an element of this graph.Tensor Tensor("dense_3/Softmax:0", shape=(?, 26), dtype=float32) is not an element of this graph.Tensor Tensor("dense_3/Softmax:0", shape=(?, 26), dtype=float32) is not an element of this graph.cannot reshape array of size 0 into shape (0,newaxis)cannot reshape array of size 0 into shape (0,newaxis)cannot reshape array of size 0 into shape (0,newaxis)cannot reshape array of size 0 into shape (0,newaxis)cannot reshape array of size 0 into shape (0,newaxis)cannot reshape array of size 0 into shape (0,newaxis)cannot reshape array of size 0 into shape (0,newaxis)cannot reshape array of size 0 into shape (0,newaxis)cannot reshape array of size 0 into shape (0,newaxis)cannot reshape array of size 0 into shape (0,newaxis)cannot reshape array of size 0 into shape (0,newaxis)cannot reshape array of size 0 into shape (0,newaxis)准确率:0.82
+准确率:0.76
+准确率:0.76
+准确率:0.8
+准确率:0.78
+准确率:0.79
+准确率:0.8
+准确率:0.78
+准确率:0.88
+准确率:0.8
+[Errno 2] No such file or directory: 'imgs/time_imgs/RVSC-17645761.png'
+[Errno 2] No such file or directory: 'imgs/time_imgs/QGDP-71185435.png'
+[Errno 2] No such file or directory: 'imgs/time_imgs/OTZD-11817850.png'
+[Errno 2] No such file or directory: 'imgs/time_imgs/OSLV-11912353.png'
+[Errno 2] No such file or directory: 'imgs/time_imgs/SUTO-11923858.png'
+[Errno 2] No such file or directory: 'imgs/time_imgs/EAYB-12059357.png'
+[Errno 2] No such file or directory: 'imgs/time_imgs/NOLW-12023853.png'
+[Errno 2] No such file or directory: 'imgs/time_imgs/YRRY-21563711.png'
+[Errno 2] No such file or directory: 'imgs/time_imgs/DHXR-12261361.png'
+[Errno 2] No such file or directory: 'imgs/time_imgs/SKAA-22088642.png'
+[Errno 2] No such file or directory: 'imgs/time_imgs/SNPA-70712310.png'
+[Errno 2] No such file or directory: 'imgs/time_imgs/EAGR-12487313.png'
+[Errno 2] No such file or directory: 'imgs/time_imgs/WXJN-12491837.png'
+[Errno 2] No such file or directory: 'imgs/time_imgs/EQXQ-25683525.png'
+[Errno 2] No such file or directory: 'imgs/time_imgs/PZYN-12577891.png'
+[Errno 2] No such file or directory: 'imgs/time_imgs/BSIG-15100017.png'
+[Errno 2] No such file or directory: 'imgs/time_imgs/JLUS-15162521.png'
+[Errno 2] No such file or directory: 'imgs/time_imgs/XZSD-71525244.png'
+[Errno 2] No such file or directory: 'imgs/time_imgs/YESM-15201954.png'
+[Errno 2] No such file or directory: 'imgs/time_imgs/GTCF-15363459.png'
+[Errno 2] No such file or directory: 'imgs/time_imgs/AAVK-15331968.png'
+[Errno 2] No such file or directory: 'imgs/time_imgs/SOHT-15471484.png'
+[Errno 2] No such file or directory: 'imgs/time_imgs/GQFF-15582010.png'
+[Errno 2] No such file or directory: 'imgs/time_imgs/YDXE-15542522.png'
+准确率:0.85
+准确率:0.9
+准确率:0.8
+准确率:0.9
+准确率:0.9
