@@ -108,7 +108,7 @@ def train_model():
 
 for i in range(601):
     try:
-        crawler.trains(20)
+        crawler.trains(120)
         train_model()
         if i%3 == 0:
             remove_file('train_imgs/')
