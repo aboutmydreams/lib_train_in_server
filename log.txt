@@ -45,3 +45,7 @@ cannot reshape array of size 0 into shape (0,newaxis)cannot reshape array of siz
 准确率:0.8
 准确率:0.9
 准确率:0.9
+准确率:0.8
+准确率:0.9
+准确率:0.8
+准确率:0.75
