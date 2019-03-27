@@ -109,7 +109,7 @@ class ImgVerifier:
 			"csrf_token": self.csrf
 		}
 		res = self.session.post("http://210.35.251.243/reader/redr_verify.php", data=data)
-		print(code)
+		# print(code)
 		res.encoding = "utf-8"
 		# cookie = PHPSESSID=nqt448vldkf9eh5qpuhsndb335
 
