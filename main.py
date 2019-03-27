@@ -107,14 +107,14 @@ def train_model():
 
 
 for i in range(601):
-    try:
-        crawler.trains(120)
-        train_model()
-        if i%3 == 0:
-            remove_file('train_imgs/')
-            remove_file('test_imgs/')
-    except Exception as e:
-        print(e)
-        f = open('log.txt','a')
-        f.write(str(e) + '\n')
-        f.close()
+    # try:
+    crawler.trains(120)
+    train_model()
+    if i%3 == 0:
+        remove_file('train_imgs/')
+        remove_file('test_imgs/')
+    # except Exception as e:
+    #     print(e)
+    #     f = open('log.txt','a')
+    #     f.write(str(e) + '\n')
+    #     f.close()

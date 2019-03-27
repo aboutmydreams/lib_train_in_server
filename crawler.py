@@ -93,7 +93,7 @@ class ImgVerifier:
 		try:
 			code = tfmain.break_capt(self.img)
 		except Exception as e:
-			self.img.save('error_imgs/{}.png'.format(str(random.randint(1000,99999))))
+			# self.img.save('error_imgs/{}.png'.format(str(random.randint(1000,99999))))
 			code = "ABCD"
 			f = open('log.txt','a')
 			f.write(str(e))
@@ -118,7 +118,7 @@ class ImgVerifier:
 			# mycode = input('输入：')
 			# if len(mycode) != 4:
 			# 	return False
-			self.img.save('error_imgs/{}.png'.format(code + '-' + str(time.time())[-10:-3].replace('.',str(random.random())[2:4])))
+			# self.img.save('error_imgs/{}.png'.format(code + '-' + str(time.time())[-10:-3].replace('.',str(random.random())[2:4])))
 			return 2,self.cookie
 		elif ("读者证件不存在" in res.text) or ("密码错误" in res.text):
 			self.img.save('imgs/{}.png'.format(code + '-' + str(time.time())[-10:-3].replace('.',str(random.random())[2:4])))
