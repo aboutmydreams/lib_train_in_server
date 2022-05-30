@@ -28,8 +28,7 @@ model = load_model('model.h5')
 def test_lib_img():
     url = 'http://210.35.251.243/reader/captcha.php'
     response = requests.get(url)
-    img = Image.open(BytesIO(response.content))
-    return img
+    return Image.open(BytesIO(response.content))
 
 
 
@@ -38,8 +37,7 @@ def chr_num(num):
 
 def pred_ans(mode):
     x_test = mode.reshape(mode.shape[0],-1)
-    ans = model.predict_classes(x_test)
-    return ans
+    return model.predict_classes(x_test)
 
 
 def break_capt(img):
@@ -50,8 +48,7 @@ def break_capt(img):
 
     test_x = np.array(mode_list)
     ans = pred_ans(test_x)
-    res = ''.join(map(chr_num,ans.tolist()))
-    return res
+    return ''.join(map(chr_num,ans.tolist()))
 
 # img.show()
 # print(break_capt(img))

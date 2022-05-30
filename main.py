@@ -20,17 +20,17 @@ def remove_file(train_img_path):
         os.remove(train_img_path + file)
 
 def get_my_train_img(times):
-    for i in range(times):
+    for _ in range(times):
         name,mig = make_captcha.get_train_img()
         mig = solve_it.clear_train_img(mig)
-        mig.save('real_do_img/{}.png'.format(name))
+        mig.save(f'real_do_img/{name}.png')
 
 
 def get_my_test_img(times):
-    for i in range(times):
+    for _ in range(times):
         name,mig = make_captcha.get_train_img()
         mig = solve_it.clear_train_img(mig)
-        mig.save('test_imgs/{}.png'.format(name))
+        mig.save(f'test_imgs/{name}.png')
 
 # get_my_train_img(500)
 # get_my_test_img(50)
@@ -115,6 +115,5 @@ for i in range(601):
             remove_file('test_imgs/')
     except Exception as e:
         print(e)
-        f = open('log.txt','a')
-        f.write(str(e) + '\n')
-        f.close()
+        with open('log.txt','a') as f:
+            f.write(str(e) + '\n')

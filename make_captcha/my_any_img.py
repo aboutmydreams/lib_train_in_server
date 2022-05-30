@@ -37,7 +37,7 @@ def get_captcha(width,height,num_of_str,gray_value=255):
             draw.point((x, y), fill=(255,255,255))
 
     # 输出文字:
-    char_list = [rndChar() for i in range(num_of_str)]
+    char_list = [rndChar() for _ in range(num_of_str)]
 
     for t in range(num_of_str):
         # rndColor2()

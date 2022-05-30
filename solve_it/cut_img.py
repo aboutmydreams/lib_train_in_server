@@ -20,15 +20,10 @@ def mode_to_img(mode,background=None):
     if background:
         mode = np.where(mode < 1, 0, background)
     array_mode = np.array(mode).astype('uint8')
-    image = Image.fromarray(array_mode).convert('RGB')
-    return image
+    return Image.fromarray(array_mode).convert('RGB')
 
 def is_white_column(column):
-    # print(column)
-    for c in column:
-        if c == 0:
-            return False
-    return True
+    return all(c != 0 for c in column)
 
 def cut_from_rect(rect, start, end):
     # print("cut from %s to %s" % (start, end))
@@ -44,21 +39,20 @@ def vertical_cut(rect):
     bools = []
     for x in range(width):
         c_position = x
-        bools.append(is_white_column(rect[:, x]))
-        
+        bools.append(is_white_column(rect[:, c_position]))
         if not bools[c_position] and c_position == 0:
             continue
-        
+
         if not bools[c_position] and bools[c_position - 1]:
             last_position = c_position - 1
             continue
-        
+
         if (bools[c_position] and not bools[c_position - 1]):
             # 开始截取, 从last_position到c_position
             delta = c_position - last_position
             if delta <= 1: # 像这样到肯定有问题，直接跳过
                 continue
-            
+
             bit = float(delta)/float(max_width)
 
             point_right = bit - int(bit)
@@ -74,9 +68,9 @@ def vertical_cut(rect):
                         # 取last_position + i*npart : last_position + (i+1)*npart
                         result.append(cut_from_rect(rect, last_position, (last_position+(i+1)*interval)))
                         last_position += interval
-                        
-                
-            
+
+
+
     # for x in range(width):
     #     c_position = x
     #     bools.append(is_white_column(rect[:, x]))        
@@ -145,13 +139,11 @@ def cut_mode(mode,max_width,need_num=4):
                 stopat = i*s+1
                 lop = i
             s -= 1
-            for i in range(1, n-lop):
-                ret.append(m[stopat+i*s:stopat+(i+1)*s])
-            return ret
+            ret.extend(m[stopat+i*s:stopat+(i+1)*s] for i in range(1, n-lop))
         else:
-            for i in range(n):
-                ret.append(m[i*s:(i+1)*s])
-            return ret
+            ret.extend(m[i*s:(i+1)*s] for i in range(n))
+
+        return ret
         
         
     need_list = []
